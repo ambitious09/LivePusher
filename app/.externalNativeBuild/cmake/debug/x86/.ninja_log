@@ -1,0 +1,9 @@
+# ninja log v5
+15	276	0	src/main/cpp/include/librtmp/CMakeFiles/rtmp.dir/hashswf.c.o	17c6eae4a8b2070
+31	310	0	src/main/cpp/include/librtmp/CMakeFiles/rtmp.dir/log.c.o	e83d7c8a2007e694
+51	329	0	src/main/cpp/include/librtmp/CMakeFiles/rtmp.dir/parseurl.c.o	b02077783f920abd
+76	415	0	src/main/cpp/include/librtmp/CMakeFiles/rtmp.dir/amf.c.o	81bfb6b09c27b117
+0	491	0	src/main/cpp/include/librtmp/CMakeFiles/rtmp.dir/rtmp.c.o	ab96a3062dcd57a4
+492	2200	0	src/main/cpp/include/librtmp/librtmp.a	b5b6707bb45b9350
+2200	2481	0	CMakeFiles/pusher.dir/src/main/cpp/pusher.cpp.o	7bdece3edbf902ea
+2482	2721	0	../../../../build/intermediates/cmake/debug/obj/x86/libpusher.so	b34f16b6c8f2fcc9

@@ -1,0 +1,6 @@
+E:/ffmpeg/LivePusher/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/pusher.dir
+E:/ffmpeg/LivePusher/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/edit_cache.dir
+E:/ffmpeg/LivePusher/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+E:/ffmpeg/LivePusher/app/.externalNativeBuild/cmake/release/armeabi-v7a/src/main/cpp/include/librtmp/CMakeFiles/rtmp.dir
+E:/ffmpeg/LivePusher/app/.externalNativeBuild/cmake/release/armeabi-v7a/src/main/cpp/include/librtmp/CMakeFiles/edit_cache.dir
+E:/ffmpeg/LivePusher/app/.externalNativeBuild/cmake/release/armeabi-v7a/src/main/cpp/include/librtmp/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,101 @@
+
+{
+	"buildFiles" : 
+	[
+		"E:/ffmpeg/LivePusher/app/CMakeLists.txt",
+		"E:/ffmpeg/LivePusher/app/src/main/cpp/include/librtmp/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"E:\\AppData\\Local\\Android\\sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build E:\\ffmpeg\\LivePusher\\app\\.externalNativeBuild\\cmake\\release\\x86 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"faac-Release-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "faac",
+			"buildType" : "release",
+			"output" : "E:/ffmpeg/LivePusher/app/src/main/cpp/lib/x86/libfaac.a",
+			"toolchain" : "3173508369"
+		},
+		"pusher-Release-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "pusher",
+			"buildCommand" : "E:\\AppData\\Local\\Android\\sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build E:\\ffmpeg\\LivePusher\\app\\.externalNativeBuild\\cmake\\release\\x86 --target pusher",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/AppData/Local/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-x86  -Dpusher_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -isystem E:\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem E:\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86\\include -isystem E:\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/ffmpeg/LivePusher/app/src/main/cpp/pusher.cpp",
+					"workingDirectory" : "E:/ffmpeg/LivePusher/app/.externalNativeBuild/cmake/release/x86"
+				}
+			],
+			"output" : "E:/ffmpeg/LivePusher/app/build/intermediates/cmake/release/obj/x86/libpusher.so",
+			"toolchain" : "3173508369"
+		},
+		"rtmp-Release-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "rtmp",
+			"buildCommand" : "E:\\AppData\\Local\\Android\\sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build E:\\ffmpeg\\LivePusher\\app\\.externalNativeBuild\\cmake\\release\\x86 --target rtmp",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/AppData/Local/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-x86   -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -DNO_CRYPTO -O2 -DNDEBUG -O2 -DNDEBUG       -c ",
+					"src" : "E:/ffmpeg/LivePusher/app/src/main/cpp/include/librtmp/amf.c",
+					"workingDirectory" : "E:/ffmpeg/LivePusher/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/AppData/Local/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-x86   -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -DNO_CRYPTO -O2 -DNDEBUG -O2 -DNDEBUG       -c ",
+					"src" : "E:/ffmpeg/LivePusher/app/src/main/cpp/include/librtmp/hashswf.c",
+					"workingDirectory" : "E:/ffmpeg/LivePusher/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/AppData/Local/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-x86   -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -DNO_CRYPTO -O2 -DNDEBUG -O2 -DNDEBUG       -c ",
+					"src" : "E:/ffmpeg/LivePusher/app/src/main/cpp/include/librtmp/log.c",
+					"workingDirectory" : "E:/ffmpeg/LivePusher/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/AppData/Local/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-x86   -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -DNO_CRYPTO -O2 -DNDEBUG -O2 -DNDEBUG       -c ",
+					"src" : "E:/ffmpeg/LivePusher/app/src/main/cpp/include/librtmp/parseurl.c",
+					"workingDirectory" : "E:/ffmpeg/LivePusher/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/AppData/Local/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-x86   -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -DNO_CRYPTO -O2 -DNDEBUG -O2 -DNDEBUG       -c ",
+					"src" : "E:/ffmpeg/LivePusher/app/src/main/cpp/include/librtmp/rtmp.c",
+					"workingDirectory" : "E:/ffmpeg/LivePusher/app/.externalNativeBuild/cmake/release/x86"
+				}
+			],
+			"output" : "E:/ffmpeg/LivePusher/app/.externalNativeBuild/cmake/release/x86/src/main/cpp/include/librtmp/librtmp.a",
+			"toolchain" : "3173508369"
+		},
+		"x264-Release-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "x264",
+			"buildType" : "release",
+			"output" : "E:/ffmpeg/LivePusher/app/src/main/cpp/lib/x86/libx264.a",
+			"toolchain" : "3173508369"
+		}
+	},
+	"toolchains" : 
+	{
+		"3173508369" : 
+		{
+			"cCompilerExecutable" : "E:/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "E:/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

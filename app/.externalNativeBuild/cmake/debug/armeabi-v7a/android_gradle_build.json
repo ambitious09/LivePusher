@@ -1,0 +1,101 @@
+
+{
+	"buildFiles" : 
+	[
+		"E:/ffmpeg/LivePusher/app/CMakeLists.txt",
+		"E:/ffmpeg/LivePusher/app/src/main/cpp/include/librtmp/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"E:\\AppData\\Local\\Android\\sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build E:\\ffmpeg\\LivePusher\\app\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"faac-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "faac",
+			"buildType" : "debug",
+			"output" : "E:/ffmpeg/LivePusher/app/src/main/cpp/lib/armeabi-v7a/libfaac.a",
+			"toolchain" : "3173508369"
+		},
+		"pusher-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "pusher",
+			"buildCommand" : "E:\\AppData\\Local\\Android\\sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build E:\\ffmpeg\\LivePusher\\app\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a --target pusher",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target armv7-none-linux-androideabi -gcc-toolchain E:/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm  -Dpusher_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -isystem E:\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem E:\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem E:\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "E:/ffmpeg/LivePusher/app/src/main/cpp/pusher.cpp",
+					"workingDirectory" : "E:/ffmpeg/LivePusher/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "E:/ffmpeg/LivePusher/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libpusher.so",
+			"toolchain" : "3173508369"
+		},
+		"rtmp-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "rtmp",
+			"buildCommand" : "E:\\AppData\\Local\\Android\\sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build E:\\ffmpeg\\LivePusher\\app\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a --target rtmp",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target armv7-none-linux-androideabi -gcc-toolchain E:/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm   -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DNO_CRYPTO -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info       -c ",
+					"src" : "E:/ffmpeg/LivePusher/app/src/main/cpp/include/librtmp/amf.c",
+					"workingDirectory" : "E:/ffmpeg/LivePusher/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  -target armv7-none-linux-androideabi -gcc-toolchain E:/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm   -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DNO_CRYPTO -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info       -c ",
+					"src" : "E:/ffmpeg/LivePusher/app/src/main/cpp/include/librtmp/hashswf.c",
+					"workingDirectory" : "E:/ffmpeg/LivePusher/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  -target armv7-none-linux-androideabi -gcc-toolchain E:/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm   -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DNO_CRYPTO -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info       -c ",
+					"src" : "E:/ffmpeg/LivePusher/app/src/main/cpp/include/librtmp/log.c",
+					"workingDirectory" : "E:/ffmpeg/LivePusher/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  -target armv7-none-linux-androideabi -gcc-toolchain E:/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm   -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DNO_CRYPTO -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info       -c ",
+					"src" : "E:/ffmpeg/LivePusher/app/src/main/cpp/include/librtmp/parseurl.c",
+					"workingDirectory" : "E:/ffmpeg/LivePusher/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  -target armv7-none-linux-androideabi -gcc-toolchain E:/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm   -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DNO_CRYPTO -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info       -c ",
+					"src" : "E:/ffmpeg/LivePusher/app/src/main/cpp/include/librtmp/rtmp.c",
+					"workingDirectory" : "E:/ffmpeg/LivePusher/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "E:/ffmpeg/LivePusher/app/.externalNativeBuild/cmake/debug/armeabi-v7a/src/main/cpp/include/librtmp/librtmp.a",
+			"toolchain" : "3173508369"
+		},
+		"x264-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "x264",
+			"buildType" : "debug",
+			"output" : "E:/ffmpeg/LivePusher/app/src/main/cpp/lib/armeabi-v7a/libx264.a",
+			"toolchain" : "3173508369"
+		}
+	},
+	"toolchains" : 
+	{
+		"3173508369" : 
+		{
+			"cCompilerExecutable" : "E:/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "E:/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

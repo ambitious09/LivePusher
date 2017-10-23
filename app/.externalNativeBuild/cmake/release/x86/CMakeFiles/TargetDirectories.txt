@@ -1,0 +1,6 @@
+E:/ffmpeg/LivePusher/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/pusher.dir
+E:/ffmpeg/LivePusher/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/edit_cache.dir
+E:/ffmpeg/LivePusher/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/rebuild_cache.dir
+E:/ffmpeg/LivePusher/app/.externalNativeBuild/cmake/release/x86/src/main/cpp/include/librtmp/CMakeFiles/rtmp.dir
+E:/ffmpeg/LivePusher/app/.externalNativeBuild/cmake/release/x86/src/main/cpp/include/librtmp/CMakeFiles/edit_cache.dir
+E:/ffmpeg/LivePusher/app/.externalNativeBuild/cmake/release/x86/src/main/cpp/include/librtmp/CMakeFiles/rebuild_cache.dir
