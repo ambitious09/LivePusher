@@ -2,8 +2,9 @@
 整个视频直播开发流程技术如下：
 
 ![images](https://github.com/ambitious09/LivePusher/blob/master/live.png)
+
 来认识一下视频编码格式:
-	代表软编码器------openh264、x264
+代表软编码器------openh264、x264
 	
 ![](https://github.com/ambitious09/LivePusher/blob/master/%E6%A0%BC%E5%BC%8F.png)
 Profile     		:      baseline main high
